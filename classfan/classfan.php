@@ -43,13 +43,10 @@
             }
         }
     }
-
+   
     $fan1 = new Fan(3,10,'yellow',true) ;
     $fan2 = new Fan(2,5,'blue',false) ;
     echo $fan1->ToString() ."<br>" ;
     echo $fan2->ToString() ;
-
-
-
-
-?>
+     
+     ?>
